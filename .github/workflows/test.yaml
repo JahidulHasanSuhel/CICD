@@ -8,14 +8,17 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-      
+
       - uses: actions/setup-node@v3
         with:
           node-version: 18
       - run: node -v
 
-      - run: tree
+      - run: npm install
 
-      - run: echo "Hello World!"
+      - run: npm run build
 
-      - run: echo "this is step no. 2"
+      - name: setup finish
+        run: echo "Hurray!!"
+
+
