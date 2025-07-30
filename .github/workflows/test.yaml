@@ -3,10 +3,13 @@ name: My First Github Action
 on: [push]
 
 jobs:
-  print-hello-world:
+  build-app:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
       - name: Step 1
         run: echo "Hello World!"
 
