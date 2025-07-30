@@ -9,6 +9,7 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+        run: tree
 
       - name: Step 1
         run: echo "Hello World!"
