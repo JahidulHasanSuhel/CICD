@@ -17,7 +17,7 @@ function App() {
         </a>
       </div>
 
-      <h1>iMe Myself and I is enough for learnig ci cd/h1>
+      <h1>iMe Myself and I is enough for learnig ci cd</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
