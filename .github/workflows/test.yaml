@@ -23,9 +23,6 @@ jobs:
 
       - run: npm run build
 
-      - name: Pull Vercel Environment Info
-        run: npx vercel pull --yes --environment=production --token=${{ secrets.VERCEL_TOKEN }}
-
       - name: Deploying the project
         run: npx vercel deploy --prod --token=${{ secrets.VERCEL_TOKEN }}
 
