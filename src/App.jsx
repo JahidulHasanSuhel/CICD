@@ -17,17 +17,17 @@ function App() {
         </a>
       </div>
 
-      <h1>ci cd done by me</h1>
+      <h1>iMe Myself and I is enough for learnig ci cd/h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
         <p>
-         done learning
+         hurrayyyy
         </p>
       </div>
       <p className="read-the-docs">
-        suhel
+        suhel is a good boy
       </p>
     </>
   )
